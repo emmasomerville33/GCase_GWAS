@@ -10,3 +10,10 @@ This is an R script that assesses cohorts for GCase outliers and tests the norma
 
 This linux script performs Genome-wide association studies on GCase activity in both independent cohorts, then meta-analyzes the results. Conditional and joint analyses are used to identify secondary associations within significant peaks. We also pull significant SNPs from the Nalls et al. 2019 PD GWAS from the summary statistics of all analyses. File name = "GWAS_COJO.sh"
 
+## Summary statistics and plot creation
+
+This R script is used during the GWAS_COJO pipeline to create summary statistics from regression results. It also outputs basic Manhattan and QQ-plots. File name = "sumstats_from_assoc.R". 
+
+## Multi plot Manhattan 
+
+This R script creates customized Manhattan plots with the summary statistics from different cohorts/analayses that you want to plot together. You can highlight specific peaks, label peaks or SNPs, customize colours, change the height of plots, and more. File name = "multi_plot_manhattan.R"
