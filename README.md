@@ -8,5 +8,5 @@ This is an R script that assesses cohorts for GCase outliers and tests the norma
 
 ## GWAS of GCase
 
-This linux script performs Genome-wide association studies on GCase activity in both independent cohorts, then meta-analyzes the results. Conditional and joint analyses are used to identify secondary associations within significant peaks. We also pull significant SNPs from the Nalls et al. 2019 PD GWAS from the summary statistics of all analyses. 
+This linux script performs Genome-wide association studies on GCase activity in both independent cohorts, then meta-analyzes the results. Conditional and joint analyses are used to identify secondary associations within significant peaks. We also pull significant SNPs from the Nalls et al. 2019 PD GWAS from the summary statistics of all analyses. File name = "GWAS_COJO.sh"
 
